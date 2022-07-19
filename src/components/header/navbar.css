@@ -1,0 +1,68 @@
+header{
+    margin: 10px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+.pagename{
+    display: flex;
+    align-items: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.img-logo{
+    width: 45px;
+    margin-right: 10px;
+}
+
+.pagetitle{
+    font-size: 40px;
+    color: #0c0717;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.pagetitle:after{
+    display:block;
+    content: '';
+    border-bottom: 2px solid #0c0717;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.pagetitle:hover:after { transform: scaleX(1); }
+
+.contenido_header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons{
+    font-size: 15px;
+    width: 6.5rem;
+    height: 2.5rem;
+    margin: 5px;
+    background: linear-gradient(to bottom, #a6b2ec, #3f0071);
+    color: whitesmoke;
+    border: 1px solid #082032;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.nav-buttons:hover{
+    transform: scale(1.05);
+}
+
+.nav-icon{
+    margin-left: 15px;
+    color: #8403f2;
+    cursor: pointer;
+}
+.nav-icon:hover{
+    color: #a6b2ec;
+}
